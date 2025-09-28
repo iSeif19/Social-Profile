@@ -4,7 +4,7 @@ This is a simple and responsive personal social links page built with **HTML** a
 It displays a profile picture, name, role, location, and quick access buttons to my social platforms.
 
 ## 🌐 Live Demo
-You can view the page by opening `[index.html](https://iseif19.github.io/Social-Profile/)` in your browser.
+You can view the page by opening https://iseif19.github.io/Social-Profile/ in your browser.
 
 ## ✨ Features
 - Responsive design with centered layout  
