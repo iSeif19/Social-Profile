@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section{
+    background-color: hsl(0, 0%, 12%);
+    padding: 1.5rem;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+}
+.profile-pic{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 32px;
+    border-radius: 100px;
+    border: solid 1px hsl(0, 0%, 4%);
+    box-shadow: black 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    transition: all 0.3s ease;
+}
+.profile-pic:hover{
+    transform: scale(1.1)
+}
+h1{
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+p{
+    font-size: 1rem;
+    color: hsl(0, 0%, 70%);
+    margin-bottom: 24px;
+}
+h3{
+    font-size: 15px;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 24px;
+}
+.link-button{
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.link-button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    transform: scale(1.05);
+}
